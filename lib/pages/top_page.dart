@@ -13,17 +13,17 @@ class TopPage extends StatefulWidget {
 class _MyWidgetState extends State<TopPage> {
   List<User> userList = [
     User(
-        name: '田中',
-        uid: 'abc',
-        imagePath:
-            'https://assets.st-note.com/production/uploads/images/95747620/rectangle_large_type_2_657b16e7308ea52d7f70575c2f6ac7c9.png?width=800',
-        lastMessage: 'こんにちは'),
+      name: '田中',
+      uid: 'abc',
+      imagePath:
+          'https://assets.st-note.com/production/uploads/images/95747620/rectangle_large_type_2_657b16e7308ea52d7f70575c2f6ac7c9.png?width=800',
+    ),
     User(
-        name: '加藤',
-        uid: 'dfg',
-        imagePath:
-            'https://manabi.benesse.ne.jp/lab/student/study/__icsFiles/afieldfile/2021/03/29/pic-main_004_1.jpg',
-        lastMessage: 'ありがとう')
+      name: '加藤',
+      uid: 'dfg',
+      imagePath:
+          'https://manabi.benesse.ne.jp/lab/student/study/__icsFiles/afieldfile/2021/03/29/pic-main_004_1.jpg',
+    )
   ];
 
   @override
@@ -76,7 +76,7 @@ class _MyWidgetState extends State<TopPage> {
                               fontSize: 18, fontWeight: FontWeight.bold),
                         ),
                         Text(
-                          userList[index].lastMessage,
+                          'こんにちは',
                           style: TextStyle(color: Colors.grey),
                         )
                       ],
