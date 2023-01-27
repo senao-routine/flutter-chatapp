@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "148298996479",
+    "project_id": "fir-chat-demo02",
+    "storage_bucket": "fir-chat-demo02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148298996479:android:35195dac2cfcaee93b8aca",
+        "android_client_info": {
+          "package_name": "com.example.flutter_udemy_chatapp02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148298996479-k1g0tcpo6b9ofsilfcq5cdcpp5rnjejn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJAD6lUo8sfaDfCydRwCzBEJerySuqAuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148298996479-k1g0tcpo6b9ofsilfcq5cdcpp5rnjejn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
